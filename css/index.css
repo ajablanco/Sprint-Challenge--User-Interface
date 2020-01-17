@@ -80,7 +80,7 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 50%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -143,4 +143,90 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.homeheader {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: .5%;
+}
+
+.lambdalogo {
+    width: 30%;
+}
+
+.navbar {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.navbar a {
+    margin: 1% 7%;
+    color:black;
+    text-decoration: none;
+}
+
+.jumbo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.jumbo img {
+    width: 75%;
+}
+
+.contatiner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral ;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box9 {
+    background-color: dodgerblue;
 }
