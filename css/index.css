@@ -80,7 +80,7 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 50%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -143,4 +143,272 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.homeheader {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: .5%;
+}
+
+.lambdalogo {
+    width: 30%;
+}
+
+.navbar {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.navbar a {
+    margin: 1% 7%;
+    color:black;
+    text-decoration: none;
+}
+
+.jumbo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.jumbo img {
+    width: 75%;
+}
+
+.contatiner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral ;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box9 {
+    background-color: dodgerblue;
+}
+
+
+
+/*about section*/
+
+.aboutheader {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.aboutheader .navbar {
+    margin-right: 5%;
+}
+
+.jumbo-about {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbo-about img {
+    width: 80%;
+    margin-bottom: 2%;
+}
+.sectionone {
+    display: flex;
+    justify-content: center;
+}
+.containerabout-page {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.section2 div {
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+.section2 img {
+    width: 94%;
+    margin-bottom: 2%;
+}
+
+.section2 button {
+    margin-top: 2%;
+    padding: 2%;
+    background-color: white;
+}
+
+.test2 {
+    display: flex;
+    justify-content: center;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.section3 div {
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+.section3 img {
+    width: 94%;
+    margin-bottom: 2%;
+}
+
+.section3 button {
+    margin-top: 2%;
+    padding: 2%;
+    background-color: white;
+}
+
+.test3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.test3 section {
+    width: 80%;
+    margin-left: 2%;
+}
+
+.footer {
+    margin-left: 10.5%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed black;
+    width: 79%;
+}
+
+.hr1 {
+    border: 0;
+    border-bottom: 1px dashed black;
+    width: 95%;
+    margin: 0;
+    margin-top: 5%;
+}
+
+.hr2 {
+    border: 0;
+    border-bottom: 1px dashed black;
+    width: 95%;
+    margin: 0;
+    margin-top: 5%;
+}
+
+
+
+#animation1 {
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:100%;
+      width:300%;
+    }
+    to {
+      margin-left: 0%
+        width: 100%;
+    }
+  }
+
+
+  /* Portrait */
+ 
+@media only screen
+ 
+and (min-device-width: 375px)
+ 
+and (max-device-width: 667px)
+ 
+and (-webkit-min-device-pixel-ratio: 2)
+ 
+and (orientation: portrait) {
+ 
+}
+ 
+/* Landscape */
+ 
+@media only screen
+ 
+and (min-device-width: 375px)
+ 
+and (max-device-width: 667px)
+ 
+and (-webkit-min-device-pixel-ratio: 2)
+ 
+and (orientation: landscape) {
+ 
+}
+
+.contact h3 {
+    display: flex;
+    justify-content: center;
 }
