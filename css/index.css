@@ -230,3 +230,131 @@ footer nav a {
 #box9 {
     background-color: dodgerblue;
 }
+
+
+
+/*about section*/
+
+.aboutheader {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.aboutheader .navbar {
+    margin-right: 5%;
+}
+
+.jumbo-about {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbo-about img {
+    width: 80%;
+    margin-bottom: 2%;
+}
+.sectionone {
+    display: flex;
+    justify-content: center;
+}
+.containerabout-page {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.section2 div {
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+.section2 img {
+    width: 94%;
+    margin-bottom: 2%;
+}
+
+.section2 button {
+    margin-top: 2%;
+    padding: 2%;
+    background-color: white;
+}
+
+.test2 {
+    display: flex;
+    justify-content: center;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.section3 div {
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+.section3 img {
+    width: 94%;
+    margin-bottom: 2%;
+}
+
+.section3 button {
+    margin-top: 2%;
+    padding: 2%;
+    background-color: white;
+}
+
+.test3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.test3 section {
+    width: 80%;
+    margin-left: 2%;
+}
+
+.footer {
+    margin-left: 10.5%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed black;
+    width: 79%;
+}
+
+.hr1 {
+    border: 0;
+    border-bottom: 1px dashed black;
+    width: 95%;
+    margin: 0;
+    margin-top: 5%;
+}
+
+.hr2 {
+    border: 0;
+    border-bottom: 1px dashed black;
+    width: 95%;
+    margin: 0;
+    margin-top: 5%;
+}
